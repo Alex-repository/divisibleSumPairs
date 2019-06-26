@@ -1,8 +1,8 @@
-# divisibleSumPairs
-divisibleSumPairs:
+package divisibleSumPairs;
 
+public class Answer {
 
-static int divisibleSumPairs(int n, int k, int[] ar) {
+	static int divisibleSumPairs(int n, int k, int[] ar) {
         int cont=0;
 
         for(int i=0;i<n; i++){
@@ -17,3 +17,4 @@ static int divisibleSumPairs(int n, int k, int[] ar) {
         }
         return cont;
     }
+}
